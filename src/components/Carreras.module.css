@@ -1,0 +1,60 @@
+.Main{
+    max-width: 900px; 
+    margin: 40px auto; 
+}
+
+.Carrera{
+    padding: 30px; 
+}
+
+.CarreraTitulo{
+    font-size: 24px; 
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase; 
+}
+
+.CarreraSubtitulo{
+    font-size: 22px; 
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase; 
+}
+
+.Proyecto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    justify-items: center;
+}
+
+.Link{
+    background-color: var(--green);
+    color: white; 
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%; 
+    border: 5px solid var(--green);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.Link:hover{
+    background-color: white;
+    color: var(--green); 
+}
+
+.IconProjects{
+    font-size: 60px;
+}
+
+@media screen and (max-width: 660px){
+    .Proyecto{
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+
+    .Link{
+        width: 200px; 
+        height: 200px;
+    }
+}

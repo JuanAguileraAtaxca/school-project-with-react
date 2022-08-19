@@ -1,0 +1,20 @@
+.Ball{
+    position: fixed;
+    bottom: 8%;
+    right: 8%;
+    padding: 20px; 
+    background-color: red;
+    border-radius: 50%;
+    animation: parpadeo infinite 1.5s linear;
+    color: white; 
+    font-size: 25px;
+}
+
+@keyframes parpadeo {
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

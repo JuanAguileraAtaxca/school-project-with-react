@@ -1,0 +1,16 @@
+
+@media (min-width: 700px){
+    .FooterData{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px; 
+    }
+}
+
+@media (min-width: 630px){
+    .Down{
+        display: grid; 
+        grid-template-columns: 25% auto;
+        gap: 15px; 
+    }
+}

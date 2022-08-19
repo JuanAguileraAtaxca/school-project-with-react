@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@300&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+
+:root{
+  --width: 1000px; 
+  --green: #239E05;   
+  --light-green: #8EFF73;
+  --alternative-green: #57FF2F;
+  --footer: #2A8506; 
+}
+
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0; 
+  font-family: 'Fredoka', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2{
+  font-family: 'Fredoka One', cursive;
+}
+
+a{
+  text-decoration: none;
+  color: black; 
+}
+
+p{
+  text-align: justify; 
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  padding: 10px 30px; 
+  background-color: var(--green);
+  border: 2px solid var(--green); 
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 15px; 
+  width: 150px; 
+  font-family: 'Fredoka One', cursive;
+}
+
+.button:hover{
+  background-color: white; 
+  color: var(--green); 
+}

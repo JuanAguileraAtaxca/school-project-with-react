@@ -1,0 +1,71 @@
+
+.Main{
+    max-width: 900px;
+    margin: 50px auto; 
+    padding: 20px; 
+    position: relative;
+}
+
+.Hidden{
+    display: none; 
+}
+
+.Card{
+    display: grid;
+    grid-template-columns: auto 60%;
+}
+
+.Card{
+    -webkit-box-shadow: 1px 8px 6px -1px rgb(0,0,0,0.5);
+    -moz-box-shadow: 1px 8px 6px -1px rgb(0,0,0,0.5);
+    box-shadow: 1px 8px 6px -1px rgb(0,0,0,0.5);
+}
+
+.CardContentText{
+    padding: 10px; 
+}
+
+.CardContentTextH2{
+    font-size: 16px; 
+}
+
+.CardContentTextP{
+    font-size: 12px; 
+}
+
+@media(min-width: 600px){
+    .CardContentText{
+        padding: 20px; 
+    }
+
+    .CardContentTextH2{
+        font-size: 26px;
+        padding: 20px 0 10px;  
+    }
+    
+    .CardContentTextP{
+        font-size: 18px; 
+    }
+}
+
+.Img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.Button{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 1; 
+    top: 50%; 
+    border: none; 
+    padding: 10px; 
+    font-size: 25px;
+    background-color: white;
+    border: 1px solid rgb(0,0,0,0.4);
+}
+
+.Button:hover{
+    border: 1px solid black; 
+}
